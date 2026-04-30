@@ -1,0 +1,70 @@
+@media (min-width: 768px) {
+    .p-border {
+        width: 250px;
+    }
+}
+@media (min-width: 1024px) {
+    .p-border {
+        width: 300px;
+    }
+}
+body {
+    background-color: #141414;
+    display: absolute;
+    font-family: 'Inter', sans-serif;
+}
+bg-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p-name {
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 1px;
+}
+.p-location {
+    color: #c5f82a; 
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.p-bio {
+    font-size: 14px;
+    margin: 15px;
+    color: #fff;
+}
+.bg-section > div > img {
+    display: flex;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 30px 0px 0px 0px;
+}
+.bg-section > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    max-width: 350px;
+    margin: 20px auto;
+    margin-top: 120px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #1e1e1e;
+    text-align: center;
+}
+.p-border {
+    display: block;          
+    width: 350px;            
+    margin: 10px auto;       
+    padding: 15px 0;         
+    border: 1px solid #1e1e1e;
+    border-radius: 8px;
+    background-color: #333333;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
